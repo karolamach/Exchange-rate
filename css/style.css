@@ -1,0 +1,49 @@
+* {
+    box-sizing: : border-box;
+}
+body{
+    background-image: url("../img/zasięrzutny-widok-stetoskop-na-my-waluta-uwaga-nad-białym-tłem_23-2147883840.jpg");
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-position: top-center;
+}
+
+header{
+    text-align: center;
+    font-family: 'Lucida Sans', cursive;
+}
+
+.calculatorcontainer {
+    text-align: center;
+    font-size:20px;
+    font-family: 'Lucida Sans', cursive;
+
+}
+
+#calcvalue, #clear {
+    font-family: 'Lucida Sans', cursive;
+    font-size: 20px;
+    background-color: skyblue;
+    font-weight: bold;
+    border: none;
+}
+
+/* .coin{
+    left:0;
+    width: 50px;
+    height:50px;
+} */
+
+
+
+footer {
+   
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color:pink;
+        color: skyblue;
+        color: white;
+        text-align: center;
+ }

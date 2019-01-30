@@ -3,10 +3,11 @@
 
 <head>
 
-    
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../Exchange-rate/css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
 
     <title>Exchange rate - kalkulator walut</title>
@@ -16,6 +17,7 @@
 <body>
     <header>
         <h1>Exchange Rate - kalkulator walut</h1>
+        <!-- <img class = "coin" src="../Exchange-rate/img/coin.jpg" alt="Image of coin"> -->
     </header>
 
     <div class="calculatorcontainer row">
@@ -23,7 +25,7 @@
             <p>Podaj kwotę</p>
             <input type="text" name="kwotadoprzeliczenia" class="form-control" id="kwotadoprzeliczenia" required="required"
                 placeholder="podaj kwotę" autocomplete="off">
-        </div>
+            </div>
         <div class="currency">
             <p>Przelicz z:</p>
             <select id="convert-from" class="btn btn-default fromcurrency">
@@ -63,8 +65,8 @@
                 <option value="KRW">KRW - Won Południowokoreański</option>
                 <option value="CNY">CNY - Yuan renminbi (Chiny)</option>
             </select>
-        </div>
-        <div class="currency">
+            </div>
+        <div class="currency"> 
             <p>Przelicz na:</p>
             <select id="convert-to" class="btn btn-default">
                 <option value="EUR">EUR - Euro</option>
@@ -103,29 +105,30 @@
                 <option value="CNY">CNY - Yuan renminbi (Chiny)</option>
                 <option value="pln">PLN - Złoty</option>
             </select>
-        </div>
-        <div class="currency">
+            </div>
+            </br>
+            <div class="currency">
             <button id="calcvalue" class="btn btn-success">Przelicz</button>
+            </div>
+            </br>
+            <div class="currency">
+            <button id="clear" class="btn btn-danger">Wyczyść dane</button>
+            </div>
         </div>
-        <div class="currency">
-            <button id="calcvalue-claer" class="btn btn-danger">Wyczyść dane</button>
-        </div>
-    </div>
-    <div id="calcvalate-result">
+        <!-- <div id="calcvalate-result"> -->
 
     </div>
+
+
+    <footer>
+        <p>&copy; Copyright 2019 KarolaMach</p>
+    </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script type="text/javascript" src="../Exchange-rate/js/main.js"></script>
 
 
 
-
-
-
-</body>
-
-</html>
 
 
 </body>
